@@ -7,4 +7,8 @@
 module.exports = {
   /* Your site config here */
   plugins: [],
+  siteMetadata: {
+    title: `Test Page`,
+    siteUrl: process.env.CURRENT_DOMAIN || `https://admin.lashliftstylist-trineholmsted.dk`
+  }
 }
